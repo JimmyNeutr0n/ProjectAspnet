@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Data.Interfaces
 {
-    interface IModelRepository<TEntity> : IDisposable
+    public interface IModelRepository : IDisposable
     {
         void Insert(VehicleModelEntity entity);
 

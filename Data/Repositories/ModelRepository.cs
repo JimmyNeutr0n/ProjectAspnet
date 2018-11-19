@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Data.Repositories
 {
-    class ModelRepository<TEntity> : IModelRepository<TEntity>
+    class ModelRepository : IModelRepository
     {
         ProjectDbContext context;
 

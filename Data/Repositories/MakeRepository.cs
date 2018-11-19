@@ -9,7 +9,7 @@ using Data.Entities;
 
 namespace Data.Repositories
 {
-    class MakeRepository<TEntity> : IMakeRepository<TEntity>
+    class MakeRepository : IMakeRepository
     {
         ProjectDbContext context;
 

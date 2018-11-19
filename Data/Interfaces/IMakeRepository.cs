@@ -5,7 +5,7 @@ using Data.Entities;
 
 namespace Data.Interfaces
 {
-    interface IMakeRepository<TEntity> : IDisposable
+    public interface IMakeRepository : IDisposable
     {
         void Insert(VehicleMakeEntity entity);
 
